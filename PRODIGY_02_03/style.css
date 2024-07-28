@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffeb3b; /* Yellow background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+main {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #ffeb3b; /* Yellow background */
+    border: 2px solid #000; /* Black lines */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.cell.X {
+    color: red; /* Red color for X */
+}
+
+.cell.O {
+    color: red; /* Red color for O */
+}
+
+footer {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
