@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>My Portfolio</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <h2>Welcome to My Portfolio</h2>
+        <p>I'm SRAVANTHI, a passionate developer with a love for coding and design.</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a dedicated and creative web developer with a passion for crafting elegant and functional digital experiences. With a background in computer science and a deep understanding of modern web technologies, I specialize in designing and developing responsive websites that seamlessly blend form and function. My approach to web development combines a keen eye for detail with a commitment to best practices, ensuring that each project is not only visually appealing but also optimized for performance and accessibility.</p>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-container">
+            <div class="education-column">
+                <h3>B-Tech</h3>
+                <p>Institution: Kalasalingam Acedemy of Reasearch and Education</p>
+                <p>Year: 2022 - 2026</p>
+                <p>Major: Computer Science</p>
+            </div>
+            <div class="education-column">
+                <h3>Higher School of Education</h3>
+                <p>Sri Chaitanya Jr. Kalasala</p>
+                <p>Year: 2020 - 2022</p>
+                <p>Major: MPC</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Medication Recommendation System</h3>
+            <p>Suggesting the medications for the user based on there medical
+                history, symptoms and recommends diets and exercises.</p>
+        </div>
+        <div class="project">
+            <h3>Sentiment-Based Recommendation Systems</h3>
+            <p>Enhancing recommendation systems by incorporating sentiment
+                analysis to suggest products, movies, or music that align with
+                users mood.</p>
+        </div>
+        <div class="project">
+            <h3>Intrusion Detection System</h3>
+            <p>Building a system to monitor network traffic and detect malicious
+                activities and also counts the passage of vehicles.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
